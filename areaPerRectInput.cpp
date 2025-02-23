@@ -18,7 +18,7 @@ int main() {
     std::cin >> width;
     std::cout << "" << std::endl;
 
-    std::cout << "The area of your rectangle = " << (width * length) << "cm" << std::endl;
-    std::cout << "The perimeter of your rectangle = " << (2*(width + length)) << "cm" << std::endl;
+    std::cout << "The area of your rectangle = " << (width * length);
+    std::cout << "The perimeter of your rectangle = " << (2*(width + length));
     std::cout << "" << std::endl;
 }
